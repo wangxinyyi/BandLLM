@@ -223,11 +223,4 @@ The `EXPERIMENT_L512_PHYS.md` file records the main internal run used to fix thi
 
 These numbers require the same processed dataset, split, pretrained encoder checkpoint, and training settings.
 
-## Notes for GitHub Release
 
-Before pushing:
-
-1. Keep `data/`, `out/`, and `pretrained/` outside git.
-2. Do not commit Materials Project raw data unless the license allows redistribution.
-3. Do not commit private API keys, logs, or local machine paths.
-4. Use a release asset or external storage for checkpoints if needed.
