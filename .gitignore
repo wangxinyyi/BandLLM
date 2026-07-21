@@ -1,0 +1,59 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test / tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Large local experiment assets
+data/
+out/
+pretrained/
+logs/
+scratches/
+saved_models/
+
+# Model checkpoints and generated arrays
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+
+# Generated figures and reports
+*.png
+*.pdf
+*.svg
+*.csv
+
+# Local notes / temporary command files
+czbz
+*.bak
+*.bak_*
+run_full.sh
+nohup.out
