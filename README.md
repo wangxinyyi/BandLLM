@@ -11,16 +11,16 @@ The Python package name is currently kept as `crystallm` for compatibility with 
 
 ## Reproducibility Requirements
 
-This GitHub repository contains the code needed to reproduce the training, prediction, and basic evaluation workflow. It is not a self-contained data/checkpoint archive.
+This GitHub repository contains the code needed to reproduce the training, prediction, and basic evaluation workflow. To reproduce the reported results, you will need the processed dataset and pretrained checkpoints.
 
-To reproduce the reported pipeline, prepare the following files outside git:
-
+We have made the necessary data and models publicly available. To reproduce the reported pipeline, please download and organize the following files:
+﻿
+1.  Dataset and Checkpoints:Download all files from the Zenodo repository: https://doi.org/10.5281/zenodo.24488738
+2.  Extract the downloaded archive(s) and place them in the following directory structure:
 ```text
 data/mp_all_bs3072/
 pretrained/crystallm_v1_small/ckpt.pt
 ```
-
-The expected dataset folder is the processed Materials Project band dataset used by the scripts. The pretrained checkpoint is the CrystaLLM-style CIF encoder checkpoint used by Stage II. Large datasets, model checkpoints, prediction arrays, and generated figures are intentionally excluded by `.gitignore`.
 
 ## Repository Contents
 
